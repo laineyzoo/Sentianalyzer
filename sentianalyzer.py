@@ -350,10 +350,10 @@ def compute_mutual_information(labels, tweets, n):
 ######################### TWITTER ############################
 
 def twitter_auth():
-    twitter = Twitter(auth=OAuth(consumer_key="6j6LaaBDPQml9nBEoCMh6q8tm",
-                                 consumer_secret="RevTuB9ZgD64sWoAeADWiLr9CWtKhjjeUE5jsxBsbv9dbkdS8T",
-                                 token="73861823-iBLrTp9UgM0CJ4SbwkmMKG3siwBiqNEFdBz7wzxyH",
-                                 token_secret="EROqbOf2TK69ROvZJow47FkOop3z14OqTGyBkdZ1tZZq3"))
+    twitter = Twitter(auth=OAuth(consumer_key="",
+                                 consumer_secret="",
+                                 token="",
+                                 token_secret=""))
     return twitter
 
 def classify_tweets(search_hashtag, train_labels, train_tweets, num_queries):
